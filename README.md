@@ -85,4 +85,4 @@ To run this project, you will need to add the following environment variables to
 
 ## Screenshots
 
-![Staging test Suceed](screenshots/test)
+![Staging test Suceed](screenshots/tests.png)
