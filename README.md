@@ -20,7 +20,7 @@ Credit : https://docs.binance.org/smart-chain/developer/BEP20.html
 ## Extended functionalities
 
 -   Integrated hardhat for deploying and testing contract
--   Automated testing of the basic features of an ETC token
+-   Automated testing of the basic features of BEP20 token
 -   Simple verificaton of code using verify script which verifies the contract during deployment.
 
 ## Installation
