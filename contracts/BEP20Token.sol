@@ -17,11 +17,11 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _symbol;
   string private _name;
 
-  constructor() public {
-    _name = {{TOKEN_NAME}};
-    _symbol = {{TOKEN_SYMBOL}};
-    _decimals = {{DECIMALS}};
-    _totalSupply = {{TOTAL_SUPPLY}};
+  constructor(string memory TOKEN_NAME,string memory TOKEN_SYMBOL,uint8 DECIMALS,uint256 TOTAL_SUPPLY) public {
+    _name = TOKEN_NAME;
+    _symbol = TOKEN_SYMBOL;
+    _decimals = DECIMALS;
+    _totalSupply = TOTAL_SUPPLY;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
